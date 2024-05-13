@@ -16,11 +16,11 @@ BLACK = (0, 0, 0)
 RED = (255, 0, 0)
 
 # Load player image
-player_image = pygame.image.load(r"C:\Users\yeshwanth\Pictures\Python Game\Player.png")
+player_image = pygame.image.load(r"C:\Users\Pictures\Player.png")
 player_image = pygame.transform.scale(player_image, (50, 50))
 
 # Load enemy image
-enemy_image = pygame.image.load(r"C:\Users\yeshwanth\Pictures\Python Game\Enemy1.png")
+enemy_image = pygame.image.load(r"C:\Users\Pictures\Enemy1.png")
 enemy_image = pygame.transform.scale(enemy_image, (50, 50))
 
 # Set up the player
@@ -61,7 +61,7 @@ game_over = False
 game_won = False
 
 # Load heart image for lives
-heart_image = pygame.image.load(r"C:\Users\yeshwanth\Pictures\Python Game\Heart.png")
+heart_image = pygame.image.load(r"C:\Users\Pictures\Heart.png")
 heart_image = pygame.transform.scale(heart_image, (30, 30))
 
 # Set up the dotted line
